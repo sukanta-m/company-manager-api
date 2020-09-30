@@ -1,5 +1,6 @@
 const Joi = require('joi');
 
+//we have to add validator for other cases
 const companyCreateSchema = Joi.object({
   name: Joi.string()
       .required(),
